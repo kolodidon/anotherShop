@@ -1,14 +1,25 @@
 import React from "react";
-import { HeaderHeading, GrayText } from "../styledComponents";
+import { HeaderWrapper, HeaderHeading, Address, CartButton, CartCounter, Avatar } from "../styledComponents";
+import { Search } from "../components";
 import { ReactComponent as LocationIcon } from "../images/LocationIcon.svg";
+import { ReactComponent as CartIcon } from "../images/CartIcon.svg";
+import AvatarImg from "../images/Avatar.jpg"
 
 const Header = () => {
   return (
-    <div>
+    <HeaderWrapper>
       <HeaderHeading>React</HeaderHeading>
       <LocationIcon />
-      <GrayText fontSize={14}>Александровск-Са...</GrayText>
-    </div>
+      <Address fontSize={14}>Александровск-C...</Address>
+      <Search/>
+      <CartButton>
+        <CartIcon />
+        <CartCounter fontSize={14}>10+</CartCounter>
+      </CartButton>
+      <Avatar>
+        <img src={AvatarImg} alt="Avatar" />
+      </Avatar>
+    </HeaderWrapper>
   );
 };
 

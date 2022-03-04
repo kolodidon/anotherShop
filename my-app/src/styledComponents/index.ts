@@ -1,9 +1,15 @@
-export {default as GlobalStyle} from './globalStyle';
+export { default as GlobalStyle } from "./globalStyle";
+export { Wrapper, MainWrapper, FooterWrapper } from "./Layout";
+export { GrayText, BlueText, Button } from "./Common";
 export {
-    GrayText,
-    Wrapper, 
-    MainWrapper, 
-    AsideWrapper, 
-    FooterWrapper, 
-    HeaderHeading 
-} from './components'
+  HeaderWrapper,
+  HeaderHeading,
+  Address,
+  SearchWrapper,
+  SearchInput,
+  SearchButton,
+  CartButton,
+  CartCounter,
+  Avatar,
+} from "./Header";
+export { AsideWrapper, AsideBlock, AsideBlockText, OfferPromoWrapper, OfferPromoText, OfferPromoButton } from "./Aside";
