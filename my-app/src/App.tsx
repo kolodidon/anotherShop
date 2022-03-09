@@ -5,14 +5,16 @@ import {Wrapper, MainWrapper,} from './styledComponents';
 
 const App: React.FC = () => {
   return (
-    <Wrapper>
-      <MainWrapper>
-        <Header/>
-        <Main/>
-      </MainWrapper>
-      <Aside/>
-      <Footer/>
-    </Wrapper>
+    <>
+      <Wrapper>
+        <MainWrapper>
+          <Header />
+          <Main />
+        </MainWrapper>
+        <Aside />
+      </Wrapper>
+      <Footer />
+    </>
   );
 }
 

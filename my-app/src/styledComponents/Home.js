@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import DefaultImage from "../images/DefaultImage.jpg"
+import DefaultImage from "../images/DefaultImage.jpg";
 import {Button} from './';
 
 const MainHeader = styled.span`

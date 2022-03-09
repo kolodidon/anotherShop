@@ -13,11 +13,8 @@ const Wrapper = styled.div`
 `;
 const MainWrapper = styled.div`
 `;
-const FooterWrapper = styled.div`
-`;
 
 export {
     Wrapper, 
     MainWrapper,  
-    FooterWrapper
 };

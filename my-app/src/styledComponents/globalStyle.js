@@ -3,10 +3,17 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Raleway Regular';
-    src: url(${'../fonts/Raleway-Regular.ttf'}) format('ttf');
+    src: url(${'../fonts/Raleway/Raleway-Regular.ttf'}) format('ttf');
+  }
+  @font-face {
+    font-family: 'Montserrat Regular';
+    src: url(${'../fonts/Montserrat/Montserrat-Regular.ttf'}) format('ttf');
   }
   body {
     font-family: 'Raleway Regular', sans-serif;
+  }
+  a {
+    text-decoration: none;
   }
   *,
   *::before,
@@ -82,5 +89,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   `;
+
 
 export default GlobalStyle;

@@ -1,5 +1,5 @@
 export { default as GlobalStyle } from "./globalStyle";
-export { Wrapper, MainWrapper, FooterWrapper } from "./Layout";
+export { Wrapper, MainWrapper } from "./Layout";
 export { GrayText, BlueText, Button } from "./Common";
 export {
   HeaderWrapper,
@@ -35,3 +35,16 @@ export {
   ListItemButton,
   ShowMoreBtn
 } from "./Home";
+export {
+  FooterWrapper,
+  FooterUpperWrapper,
+  FooterHeading,
+  FooterRightWrapper,
+  FooterSocialSection,
+  FooterSocialsWrapper,
+  FooterSocialItem,
+  FooterAppSection,
+  FooterAppsWrapper,
+  FooterAppItem,
+  FooterBottomWrapper
+} from "./Footer";
