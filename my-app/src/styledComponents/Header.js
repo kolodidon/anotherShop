@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { GrayText, BlueText } from './'
  
 const HeaderWrapper = styled.div`
+    margin-bottom: 30px;
     height: 82px;
     display: flex;
     align-items: center;

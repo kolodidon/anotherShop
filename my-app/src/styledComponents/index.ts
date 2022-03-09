@@ -13,3 +13,4 @@ export {
   Avatar,
 } from "./Header";
 export { AsideWrapper, AsideBlock, AsideBlockText, OfferPromoWrapper, OfferPromoText, OfferPromoButton } from "./Aside";
+export { MainHeader, Settings, Tags, Tag } from "./Home";
