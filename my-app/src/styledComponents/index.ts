@@ -12,5 +12,26 @@ export {
   CartCounter,
   Avatar,
 } from "./Header";
-export { AsideWrapper, AsideBlock, AsideBlockText, OfferPromoWrapper, OfferPromoText, OfferPromoButton } from "./Aside";
-export { MainHeader, Settings, Tags, Tag } from "./Home";
+export {
+  AsideWrapper,
+  AsideBlock,
+  AsideBlockText,
+  OfferPromoWrapper,
+  OfferPromoText,
+  OfferPromoButton,
+} from "./Aside";
+export {
+  MainHeader,
+  Settings,
+  Tags,
+  Tag,
+  List,
+  ListItemWrapper,
+  ListItemImage,
+  ListItemTags,
+  ListItemName,
+  ListItemPrice,
+  ListItemDiscount,
+  ListItemButton,
+  ShowMoreBtn
+} from "./Home";

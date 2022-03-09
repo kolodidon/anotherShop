@@ -1,5 +1,6 @@
 import React from 'react';
-import { MainHeader, Settings, Tags, Tag } from '../styledComponents';
+import { ListItem } from "../components";
+import { MainHeader, Settings, Tags, Tag, List, ShowMoreBtn } from '../styledComponents';
 
 const Home: React.FC = () => {
   return (
@@ -14,6 +15,13 @@ const Home: React.FC = () => {
         <Tag backgroundColor={"#FFA601"}>Подарок коллегам</Tag>
         <Tag textColor={"#000000"} borderColor={"#FF2D87"}>День рождения Гриши</Tag>
       </Tags>
+      <List>
+        <ListItem/><ListItem/><ListItem/><ListItem/>
+        <ListItem/><ListItem/><ListItem/><ListItem/>
+        <ListItem/><ListItem/><ListItem/><ListItem/>
+        <ListItem/><ListItem/><ListItem/><ListItem/>
+      </List>
+      <ShowMoreBtn>Показать больше товаров</ShowMoreBtn>
     </>
   )
 }
